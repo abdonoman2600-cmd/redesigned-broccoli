@@ -1,0 +1,31 @@
+# dependencies & build output
+node_modules/
+.next/
+out/
+build/
+coverage/
+
+# secrets — NEVER commit these
+.env
+.env.*
+!.env.example
+*.pem
+
+# store data exports (they contain customer names, phones and addresses)
+backups/
+*.zip
+rashid-backup-*.json
+*backup*.json
+products-*.csv
+
+# local / editor / OS noise
+next-env.d.ts
+*.tsbuildinfo
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.shots/
+.vercel/
